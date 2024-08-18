@@ -1,0 +1,59 @@
+.bot-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  padding: 16px;
+  margin: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bot-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.bot-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-name {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.bot-id,
+.bot-class,
+.bot-health,
+.bot-damage,
+.bot-armor,
+.bot-catchphrase,
+.bot-dates {
+  margin: 4px 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.bot-catchphrase {
+  font-style: italic;
+}
+
+.add-button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
